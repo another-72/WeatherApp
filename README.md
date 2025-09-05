@@ -1,22 +1,15 @@
-#  🌡️ Weather App with React<br />
+#  Weather App with React<br />
 This is a simple weather application built using React. It allows users to search for a location and retrieve current weather information. The app utilizes the OpenWeatherMap API to fetch weather data based on the user's input.
 
-## 📸 Preview
-
-<img src = "screenshot\01.png" alt = "weather app with React" style = "width:100%;"/><br />
-<img src = "screenshot\02.png" alt = "weather app with React" style = "width:100%;"/>
-<br/>
-
-## ✨ Features
+##  Features
 
 - Type the name of city whose weather has to be known OR allow location access(to check weather of present location).
 - Displays the present weather conditions (Temperature, Humidity, Cloud Cover) along with forecasts for the future.
 - Dark and Light Theme 
 - Toggle between Celsius and Fahrenheit temperature units
-- Responsive design for a seamless experience on different devices
 - Error handling for invalid location searches or failed API requests
 
-## 🤖Technologies Used
+## Technologies Used
 
 `WeatherApp` is built using the following technologies:
 
@@ -26,23 +19,16 @@ This is a simple weather application built using React. It allows users to searc
 - `Axios`: A promise-based HTTP client for making API requests from the frontend.
 
 
-## 💻Getting Started
+## Getting Started
 
 To run the WeatherApp locally, follow these steps:
 
-1. Clone the repository: `https://github.com/its-kumar-yash/react-weather-app.git`
-2. Navigate to the project directory: `cd react-weather-app`
-3. Install the dependencies: `npm install`
-4. Create a free account on OpenWeatherMap to obtain an API key.
-5. Create a .env file and replace `<YOUR_API_KEY>` with your actual API key.
-6. Start the development server: `npm start`
-7. Open your web browser and visit `http://localhost:3000` to access the WeatherApp.
+* Navigate to the project directory: `cd WeatherApp`
+* Install the dependencies: `npm install`
+* Create a free account on OpenWeatherMap to obtain an API key.
+* Create a .env file and replace `<YOUR_API_KEY>` with your actual API key.
+* Start the development server: `npm start`
+* Open your web browser and visit `http://localhost:3000` to access the WeatherApp.
 
 ## 📑Resources
 - [OpenWeatherMap documentation](https://openweathermap.org/)
-
-## ✨Credits
-`WeatherApp` is developed and maintained by `Yash`. Weather data is retrieved from the [OpenWeatherMap API](https://openweathermap.org/).
-
-## 📧Contacts
-For any inquiries or feedback, please contact [Here](mailto:its.yash.kumar23@gmail.com).
